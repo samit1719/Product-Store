@@ -18,11 +18,14 @@ export const createProduct = async (req, res) =>  {
       return res.status(400).json({success: false, message: "All fields are required"});
     }
   
-    const newProduct = new Product(product); // create a new product
+    const newProduct = new Product(product); // create a new product object with the data from the client 
     
     try {
-      await newProduct.save(); // save the product to the database
+      await newProduct.save(); // save the product to the database 
       res.status(201).json({success: true, data: newProduct});
+
+      // console.log(newProduct);
+      // console.log(product);
     } catch (error) {
       console.log("error in creating product:", error.message);
       res.status(500).json({success: false, message: "Internal server error"});

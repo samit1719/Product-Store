@@ -1,0 +1,14 @@
+on the root folder 
+npm init -y
+
+express web application framework
+mongoose to interact with mongodb
+dotenv .to store environmental variable
+npm install express mongoose dotenv
+
+to use import export add type module on package.json file
+
+install nodemon , the change the script on package.json file
+npm i nodemon -D
+
+ 

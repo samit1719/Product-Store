@@ -1,5 +1,5 @@
 import Product from "../models/product.model.js"; // import the Product model to perform CRUD operations
-import mongoose from "mongoose"; // to use the mongoose.Types.ObjectId.isValid method to check if the id is valid
+import mongoose from "mongoose"; // to use the mongoose.Types.ObjectId.isValid method to check if the id is valid     
 
 export const getProducts = async (req, res) => {
     try {

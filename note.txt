@@ -1,14 +1,24 @@
 on the root folder 
 npm init -y
 
+backend
+****************************************************************
 express web application framework
 mongoose to interact with mongodb
 dotenv .to store environmental variable
+
 npm install express mongoose dotenv
 
 to use import export add type module on package.json file
 
-install nodemon , the change the script on package.json file
+install nodemon , then change the script on package.json file
 npm i nodemon -D
+***************************************************************
 
- 
+ frontend
+**************************************************************
+initialize vite - npm create vite@latest .  
+npm i
+install chakra-ui 
+wrap the <App /> component in main.jsx with chakraprovider
+delete app.css , index.css and other unwanted files to start fresh

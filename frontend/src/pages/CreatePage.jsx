@@ -27,7 +27,7 @@ const CreatePage = () => {
         status: "error",
         duration: 5000,
         isClosable: true,
-      })
+      })  
     }
     setNewProduct({name:"", price:"", image:""})
   }
